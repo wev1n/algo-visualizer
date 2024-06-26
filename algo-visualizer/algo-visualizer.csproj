@@ -10,7 +10,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\algo-visualizer.Client\algo-visualizer.Client.csproj" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.6" />
+    <PackageReference Include="MudBlazor" Version="6.20.0" />
   </ItemGroup>
 
 </Project>

@@ -1,5 +1,5 @@
-using algo_visualizer.Client.Pages;
 using algo_visualizer.Components;
+using MudBlazor.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +7,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
+
+// MudBlazor
+builder.Services.AddMudServices();
 
 var app = builder.Build();
 
