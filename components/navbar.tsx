@@ -77,7 +77,9 @@ export default function Navbar() {
             </DropdownMenuContent>
           </DropdownMenu>
           <Separator orientation="vertical" decorative className="h-6 mx-3" />
-          <Button size="lg">Login</Button>
+          <Link href="/login">
+            <Button size="lg">Login</Button>
+          </Link>
         </div>
       </div>
     </nav>
