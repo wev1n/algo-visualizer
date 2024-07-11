@@ -71,8 +71,8 @@ export default function Login() {
       </div>
       <div className="hidden bg-muted lg:block">
         <Image
-          src="/app-launch.svg"
-          alt="placeholder"
+          src="/images/popsy/app-launch.svg"
+          alt="app-launch.svg"
           width={40}
           height={40}
           className="h-screen w-full object-cover dark:brightness-[0.2] dark:grayscale"
