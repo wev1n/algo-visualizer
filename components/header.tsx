@@ -11,7 +11,7 @@ import {
   CarouselApi,
 } from "./ui/carousel";
 import Image from "next/image";
-import { ArrowLeft, ArrowRight, Dot } from "lucide-react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 
 export default function Header() {
   const [api, setApi] = useState<CarouselApi>();
@@ -28,8 +28,8 @@ export default function Header() {
   }, [api]);
 
   return (
-    <header className="grid grid-cols-2 pt-10 py-12">
-      <div className="flex flex-col justify-center p-16">
+    <header className="grid grid-cols-2 gap-6 p-20">
+      <div className="flex flex-col justify-center">
         <h1 className="text-7xl font-bold">
           Visualize algorithms and data structures with ease 🙌
         </h1>
@@ -69,7 +69,7 @@ export default function Header() {
                     className="bg-gray-200 w-full"
                   />
                   <div className="p-8">
-                    <h3 className="text-4xl font-semibold py-4">
+                    <h3 className="text-3xl font-semibold py-4">
                       Explore Algorithm Visualizations
                     </h3>
                     <span>
