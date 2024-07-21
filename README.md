@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Algo-Visualizer
 
-## Getting Started
+An open source application built using next.js 14, tailwindcss, shadcn/ui and much more!
 
-First, run the development server:
+> **Warning**
+> This app is a work in progress. I'm building this in public. You can follow the progress on here in this repo [@wev1n](https://github.com/wev1n/algo-visualizer).
+> See the roadmap below.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## About this project
+
+This project is a learning exercise for me, specifically to see how a modern app (with features like authentication, subscriptions, API routes, nested routes, ...etc) would work in Next.js 14 and server components. The whole purpose is to learn more about data structures and algorithms by visualizing them to the public.
+
+Inspiration taken from [taxonomy](https://github.com/shadcn-ui/taxonomy).
+
+**If you have some suggestions, feel free to create an issue.**
+
+## Features
+
+- Next.js `/app` dir,
+- Routing, Layouts, Nested Layouts and Layout Groups
+- Data Fetching, Caching and Mutation
+- Loading UI
+- Route handlers
+- Metadata files
+- Server and Client Components
+- API Routes and Middlewares
+- Authentication & Database using **Supabase**
+- ORM using **Drizzle**
+- UI Components built using **Shadcn/ui**
+- Subscriptions using **Stripe**
+- Styled using **Tailwind CSS**
+- Validations using **Zod**
+- Written in **TypeScript**
+- Tested using **Jest** & **React Testing Library**
+
+## Roadmap
+
+- [x] ~Update README.md and add LICENSE.md~
+- [x] ~Add skeleton for HomePage~
+- [] Create dashboard for the actual visualizer
+- [] Step by step guide for showing how the visualizer works
+- [] Authenticate using oauth(google, github)
+- [] Store data using PostgreSQL(Supabase)
+- [] Create db-queries using Drizzle
+- [] Add subscriptions using Stripe
+- [] Fully responsive design
+- [] Dark mode with system filter
+- [] Internationalization(en, sw)
+- [] Write test on algorithms and components
+- [] Monitor performance & more using sentry
+- [] Deploy to Vercel
+
+## Known Issues
+
+A list of things not working right now:
+
+1. This will be updated as soon as problems occur...
+
+## Running Locally
+
+1. Install dependencies using npm:
+
+```sh
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Copy `.env.example` to `.env.local` and update the variables.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+cp .env.example .env.local
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Start the development server:
 
-## Learn More
+```sh
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Licensed under the [MIT license](https://github.com/wev1n/algo-visualizer/blob/master/LICENSE.md).
