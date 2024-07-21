@@ -3,7 +3,7 @@
 An open source application built using next.js 14, tailwindcss, shadcn/ui and much more!
 
 > **Warning**
-> This app is a work in progress. I'm building this in public. You can follow the progress on here in this repo [@wev1n](https://github.com/wev1n/algo-visualizer).
+> This app is a work in progress. I'm building this in public. You can follow the progress right here in this repo [@algo-visualizer](https://github.com/wev1n/algo-visualizer).
 > See the roadmap below.
 
 ## About this project
@@ -47,7 +47,7 @@ Inspiration taken from [taxonomy](https://github.com/shadcn-ui/taxonomy).
 - [] Dark mode with system filter
 - [] Internationalization(en, sw)
 - [] Write test on algorithms and components
-- [] Monitor performance & more using sentry
+- [] Error reporting using Sentry
 - [] Deploy to Vercel
 
 ## Known Issues
