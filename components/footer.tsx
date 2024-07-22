@@ -14,7 +14,7 @@ export default function Footer() {
           </Link>
         </div>
 
-        <nav className="flex gap-4">
+        <nav className="flex gap-6">
           <Link href="#">About Us</Link>
           <Link href="#">Services</Link>
           <Link href="#">Contact Us</Link>

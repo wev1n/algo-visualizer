@@ -16,23 +16,23 @@ import { Button } from "./ui/button";
 export default function Navbar() {
   return (
     <nav className="w-full bg-background py-4 border-b-2 shadow-lg">
-      <div className="container grid grid-cols-3 items-center">
+      <div className="grid grid-cols-3 items-center px-12">
         <div className="flex items-center gap-4">
-          <Link href="#" className="flex items-center gap-2" prefetch={false}>
+          <Link href="/" className="flex items-center gap-2" prefetch={false}>
             <Command className="h-6 w-6" />
             <span className="text-lg font-bold">Acme Inc</span>
           </Link>
         </div>
         <nav className="flex justify-center gap-6">
           <Link
-            href="#"
+            href="dashboard"
             className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             prefetch={false}
           >
-            Algorithm Visualizer
+            Algorithms
           </Link>
           <Link
-            href="#"
+            href="dashboard"
             className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             prefetch={false}
           >
