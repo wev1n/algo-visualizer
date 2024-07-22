@@ -38,7 +38,10 @@ Inspiration taken from [taxonomy](https://github.com/shadcn-ui/taxonomy).
 - [x] ~Update README.md and add LICENSE.md~
 - [x] ~Add skeleton for HomePage~
 - [] Create dashboard for the actual visualizer
-- [] Step by step guide for showing how the visualizer works
+- [] Divide the visualizer into different routes, ie Sidebar, Visualizer, CodeEditor, ControlPanel, etc
+- [] Add a modal/dialog for showing the performance of the algorithm when code is executed
+- [] Make sure users can save their own code for the visualizer and share it with others, maybe from that modal
+- [] Step by step guide for new users to show how the visualizer works
 - [] Authenticate using oauth(google, github)
 - [] Store data using PostgreSQL(Supabase)
 - [] Create db-queries using Drizzle
@@ -49,6 +52,8 @@ Inspiration taken from [taxonomy](https://github.com/shadcn-ui/taxonomy).
 - [] Write test on algorithms and components
 - [] Error reporting using Sentry
 - [] Deploy to Vercel
+- [] Button for scrolling to top
+- [] Update favicon and logo
 
 ## Known Issues
 
