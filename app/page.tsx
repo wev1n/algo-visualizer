@@ -1,13 +1,15 @@
-import Benefits from "@/components/benefits";
-import CTA from "@/components/cta";
-import Footer from "@/components/footer";
+import Navbar from "@/components/navbar";
 import Header from "@/components/header";
+import Benefits from "@/components/benefits";
 import HowItWorks from "@/components/how-it-works";
 import Testimonials from "@/components/testimonials";
+import CTA from "@/components/cta";
+import Footer from "@/components/footer";
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen p-0 m-0 box-border">
+    <main>
+      <Navbar />
       <Header />
       <Benefits />
       <HowItWorks />

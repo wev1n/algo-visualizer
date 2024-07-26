@@ -12,6 +12,7 @@ import {
 } from "./ui/carousel";
 import Image from "next/image";
 import { ArrowLeft, ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function Header() {
   const [api, setApi] = useState<CarouselApi>();
@@ -40,7 +41,9 @@ export default function Header() {
           these concepts.
         </p>
         <div>
-          <Button className="mr-4">Sign Up</Button>
+          <Link className="mr-4" href="/sign-up">
+            <Button>Sign Up</Button>
+          </Link>
           <Button variant="outline">Learn More</Button>
         </div>
       </div>
